@@ -1,0 +1,88 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&family=Workbench&display=swap');
+
+
+.root{
+    margin:0;
+    padding:0;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-decoration: none;
+}
+
+.container{
+    background-image: url(camera.avif);
+    width:100vw;
+    height:100vh;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-decoration: none;
+}
+.but_one{
+    position: absolute;
+    color: aliceblue;
+    line-height: 60px;
+    font-weight: 100px;
+    font-size: 30px;
+}
+
+.side_menu{
+    position:fixed;
+    left:-300px;
+    box-shadow: 0 0 2px wheat;
+    background-color:rgba(255,255,255,0.2);
+    width:200px;
+    height:600px; 
+}
+
+.logo{
+    position:absolute;
+    line-height:60px;
+    width:100%;
+    left:35px;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+.but_two{
+    position:absolute;
+    top: 20px;
+    left:150px;
+    color:white;
+}
+
+.operations li,a,i{
+    color:white;
+}
+
+.operations ul{
+    top:60px;
+    list-style-type: none;
+    position:absolute;
+    left:-10px
+}
+
+.operations li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.social_media{
+    position:absolute;
+    top:500px;
+    left:20px;
+    opacity: 0.8;
+}
+
+li:hover{
+    box-shadow: 0 0 2px white;
+    width:170px;
+}
+#check{
+    display: none;
+}
+
+#check:checked ~ .side_menu{
+    left:0px;
+}
+
